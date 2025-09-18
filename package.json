@@ -1,0 +1,41 @@
+{
+  "name": "sorteador-grunt",
+  "version": "1.0.0",
+  "description": "Sorteador de números usando Grunt para compilação LESS e minificação JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt",
+    "watch": "grunt watch",
+    "dev": "grunt dev"
+  },
+  "keywords": [
+    "sorteador",
+    "grunt",
+    "less",
+    "javascript",
+    "minification",
+    "build"
+  ],
+  "author": "Desenvolvedor",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-connect": "^5.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-htmlmin": "^0.6.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/sorteador-grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usuario/sorteador-grunt/issues"
+  },
+  "homepage": "https://github.com/usuario/sorteador-grunt#readme"
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="css/estilo.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎲 Sorteador de Números</h1>
+            <p>Sorteie números aleatórios de forma rápida e divertida!</p>
+        </header>
+        
+        <main>
+            <div class="sorteador-card">
+                <div class="configuracao">
+                    <div class="input-group">
+                        <label for="min">Número mínimo:</label>
+                        <input type="number" id="min" value="1" min="0">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="max">Número máximo:</label>
+                        <input type="number" id="max" value="100" min="1">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="quantidade">Quantidade de números:</label>
+                        <input type="number" id="quantidade" value="1" min="1" max="10">
+                    </div>
+                </div>
+                
+                <div class="resultado">
+                    <h3>Resultado:</h3>
+                    <div id="numeros-sorteados" class="numeros-container"></div>
+                </div>
+                
+                <div class="botoes">
+                    <button id="sortear" class="btn-sortear">🎯 Sortear</button>
+                    <button id="limpar" class="btn-limpar">🗑️ Limpar</button>
+                </div>
+                
+                <div class="historico">
+                    <h3>Histórico:</h3>
+                    <div id="historico-lista" class="historico-container"></div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Desenvolvido com ❤️ usando Grunt</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.min.js"></script>
+</body>
+</html>
