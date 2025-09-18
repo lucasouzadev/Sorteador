@@ -176,13 +176,3 @@ Isso criará:
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 🙏 Agradecimentos
-
-- Inspirado no projeto original do [sorteador](https://sorteador-ooradbgld-lucasouzadevs-projects.vercel.app)
-- Comunidade Grunt pela excelente documentação
-- Todos os contribuidores e usuários
-
----
-
-**Desenvolvido com ❤️ usando Grunt**
