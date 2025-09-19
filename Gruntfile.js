@@ -90,8 +90,11 @@ module.exports = function(grunt) {
                     },
                     {
                         expand: true,
-                        src: ['*.html'],
-                        dest: 'dist/'
+                        src: ['index.prod.html'],
+                        dest: 'dist/',
+                        rename: function(dest, src) {
+                            return dest + 'index.html';
+                        }
                     }
                 ]
             }
